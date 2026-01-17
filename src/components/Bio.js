@@ -14,7 +14,7 @@ function Bio() {
     },
     {
       title: "Twitter / X",
-      url: "https://twitter.com",
+      url: "https://x.com/OluwaDemiDev",
       icon: <XIcon />,
       buttonText: "Follow My Journey",
       subText: "Check out my repositories and contributions.",
@@ -41,6 +41,8 @@ function Bio() {
             <a
               key={index}
               href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
               className={`btn ${link.isFeatured ? "pulse-effect" : ""}`}
               style={{ animationDelay: `${index * 0.1}s` }}
             >
